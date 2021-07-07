@@ -1,2 +1,2 @@
-# Phi-Members-
-Working on CSC 212 group project 
+# Phi Group - CSC 212 Project
+Websites To Create Post and make Comments
