@@ -28,3 +28,22 @@ require('navbar.php');
   </div>
 </div>   
  <?php }?> 
+
+
+   <form action="controller/Users.php" method="POST">
+ <!-- Name -->
+ <div class="row">
+  <div class="col-md-6">
+  <div class="mb-3 align-center ">
+    <label for="fn" class="form-label">First Name</label>
+    <input type="text" name="first_name" class="form-control" id="fn" aria-describedby="name" required>
+  </div>
+  </div>
+  <div class="col-md-6">
+  <div class="mb-3 align-center ">
+    <label for="sn" class="form-label">Surname</label>
+    <input type="text" name="last_name" class="form-control" id="sn" aria-describedby="name" required>
+  </div>
+  </div>
+  </div>
+  <!-- End of names -->
