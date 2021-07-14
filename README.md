@@ -11,7 +11,8 @@ S/N          NAMES            REG. NUMBER
 6.  OJUTALAYO Oluwashayo Aseoluwa    FCP/CSC/18/1015
 7.  MUNIR Muhammad Muhammad FCP/CSC/18/1049
 8.  ABUBAKAR Karibu Aliyu   FCP/CSC/18/1064
-9.  MUSA Ibrahim            FCP/CSC/18/1066
+9.  
+10.  MUSA Ibrahim            FCP/CSC/18/1066
 10  MUHAMMAD Al-Hassan      FCP/CSC/18/1079
 11. MUHAMMAD Bilal          FCP/CSC/18/1096
 12. MUHAMMAD Ummul-Ammal    FCP/CSC/19/2015
