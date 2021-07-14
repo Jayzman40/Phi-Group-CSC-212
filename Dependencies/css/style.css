@@ -46,3 +46,59 @@ header{
     padding: 10px 20px;
     list-style-type: none;
     text-decoration: none;
+}
+ header ul li a{
+    color: inherit;
+ }
+ header a:hover{
+    color: inherit;
+    color:#ccc;
+    text-decoration: none;
+ }
+ section{
+     margin-top: 80px;
+     display: flex;
+ }
+ aside{
+     z-index:2;
+     flex: 1;
+     background-color:#66d699 ;
+     position: fixed;
+     top:55px;
+     height: 100vh;
+     color: white;
+     padding-top: 20px;
+     padding-right: 30px;
+     padding-left:15px;
+
+ }
+ aside ul{
+    padding-top: 50px;
+ }
+ aside ul li{
+    padding:15px 25px 15px 25px;
+    text-decoration: none;
+    border-top:.2px solid #b5f5b5;
+    list-style-type: none;
+    color: inherit;
+ }
+ aside ul li a{
+    text-decoration: none;
+    list-style-type: none;
+    color: inherit;
+ }
+ .formarea{
+     margin-top: 110px !important;
+ }
+
+ aside ul li a:hover{
+    text-decoration: none;
+    list-style-type: none;
+ }
+ aside .user{
+     width: 80px;
+     height: 80px;
+     margin: auto;
+     border-radius: 50%; 
+ }
+
