@@ -30,3 +30,26 @@ $postComments = Comments::getAllComments();
 
 
   </div>
+  
+  <div class="col-md-4 bg-light ">
+    <div class="user-section my-5">
+      <hr>
+      <div class="user-avatar my-5">
+        <img src="<?= Users::getUser($_SESSION['user'])->profile ?>" alt="profile" width="80px" height="80px" style="border-radius:5%">
+      </div>
+      <div>
+        <span><i>
+            <p><?= Users::getUser($_SESSION['user'])->last_name . " " . Users::getUser($_SESSION['user'])->first_name ?></p>
+            <p><?= Users::getUser($_SESSION['user'])->email ?></p>
+            <p><?= Users::getUser($_SESSION['user'])->phone ?></p>
+          </i>
+        </span><br>
+        <div>
+          <span><a href="uploadimg.php">Update your profile image</a></span><br>
+          <!-- <span><a href="uploadimg.php">Update your account</a></span> -->
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <?php require_once('footer.php'); ?>
